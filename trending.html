@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <style>
+        body{
+            background-color: black;
+        }
+                .trend {
+                    margin-top: 30px;
+            color: white;
+            font-size: 28px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .holly {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .holly img {
+            margin: 30px;
+            width: 193px;
+            height: 270px;
+            border: none;
+            border-radius: 15px;
+        }
+
+        .holly img:hover {
+            transform: scale(1.07);
+
+        }
+
+        .reason {
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+
+        .reason div {
+            color: white;
+            border: 2px solid white;
+            width: 300px;
+            height: 250px;
+            /* background: linear-gradient ( 135deg,black , gray, navy); */
+            background: linear-gradient(300deg, rgb(2, 2, 67), black);
+            border-radius: 20px;
+
+
+        }
+
+        .lore {
+            text-align: center;
+            width: 280px;
+            margin-left: 10px;
+            font-size: 25px;
+
+        }
+
+        .lore1 {
+            text-align: center;
+            font-size: 18px;
+            opacity: 85%;
+            width: 260px;
+            margin-left: 20px;
+        }
+
+        .ii1 {
+            font-size: 35px;
+            color: red;
+            margin-left: 83%;
+            margin-top: 40px;
+            border: none;
+            width: 35px;
+            height: 35px;
+            box-shadow: 0px 0px 5px 2px palevioletred;
+            border-radius: 8px;
+
+
+
+        }
+
+        .ii2 {
+            font-size: 30px;
+            color: red;
+            margin-left: 85%;
+            margin-top: 60px;
+            border: none;
+            width: 30.2px;
+            height: 35px;
+            box-shadow: 0px 0px 5px 2px palevioletred;
+            border-radius: 8px;
+
+
+        }
+
+        .ii3 {
+            font-size: 30px;
+            color: red;
+            margin-left: 85%;
+            margin-top: 65px;
+            border: none;
+            width: 30.2px;
+            height: 35px;
+            box-shadow: 0px 0px 5px 2px palevioletred;
+            border-radius: 8px;
+
+        }
+
+        .ii4 {
+            font-size: 30px;
+            color: red;
+            margin-left: 85%;
+            margin-top: 45px;
+            border: none;
+            width: 30.2px;
+            height: 35px;
+            box-shadow: 0px 0px 5px 2px palevioletred;
+            border-radius: 8px;
+        }
+
+        details {
+            width: 1200px;
+
+            background: #111;
+            color: white;
+            padding: 10px;
+            border-radius: 8px;
+            margin: auto;
+            opacity: 88%;
+        }
+
+        summary {
+            cursor: pointer;
+            font-size: 30px;
+
+
+        }
+
+        .faq {
+
+            width: 1000px;
+            color: white;
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 6px;
+            font-size: 20px;
+        }
+
+        .foot {
+            display: flex;
+            justify-content: center;
+            background-color: black;
+            border: 2px solid black;
+            width: 1250px;
+            height: 200px;
+        }
+
+        .foot ul {
+            /* background-color: black; */
+            /* width: 300px; */
+            /* height: 300px; */
+            /* border: 2px solid white; */
+            color: white;
+            list-style: none;
+            margin: 50px;
+            justify-content: space-around;
+            margin: 100px;
+            margin-top: 76px;
+            opacity: 90%;
+            font-size: 18px;
+
+
+
+        }
+
+        ins {
+            color: white;
+            opacity: 90%;
+        }
+
+        .last {
+            text-align: start;
+            color: white;
+            margin-left: 19%;
+            opacity: 90%;
+        }
+
+        .last2 {
+            text-align: start;
+            color: white;
+            margin-left: 19%;
+            opacity: 82%;
+            font-size: 14px;
+
+        }
+
+        .private {
+            color: blue;
+            text-decoration: line;
+        }
+        h2{
+            text-align: center;
+            color: white;
+        }
+        hr{
+            width: 1230px;
+        }
+        .foot {
+            display: flex;
+            justify-content: center;
+            background-color:rgba(255, 0, 0, 0.401);
+            
+            border: 2px solid black;
+            width: 1250px;
+            height: 200px;
+        }
+        
+        .foot ul {
+            /* background-color: black; */
+            /* width: 300px; */
+            /* height: 300px; */
+            /* border: 2px solid white; */
+            color: white;
+            list-style: none;
+            margin: 50px;
+            justify-content: space-around;
+            margin: 100px;
+            margin-top: 76px;
+            font-style: normal;
+            font-size: 19px;
+            font-weight: 300;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+
+        }
+
+        ins {
+            color: white;
+            opacity: 100%;
+            font-weight: 300;
+        }
+
+        .last {
+            text-align: start;
+            color: white;
+            margin-left: 19%;
+            opacity: 90%;
+        }
+
+        .last2 {
+            text-align: start;
+            color: white;
+            margin-left: 19%;
+            opacity: 82%;
+            font-size: 14px;
+
+        }
+        .last2 a{
+            color: blue;
+        }
+         .icon i{
+            background-color: red;
+            color:white;
+            font-size: 37px;
+            border-radius: 7px;
+            margin: 9px;
+            
+        }
+        .icon i:hover{
+            transform: scale(1.09);
+        }
+        .back{
+            background-color: red;
+            border: 2px solid red;
+            width: 180px;
+            height: 30px;
+            margin-left: 150px;
+            border-radius: 10px;
+            opacity: 90%;
+            
+        }
+        .anchor a{
+            text-decoration: none;
+        }
+    
+    </style>
+</head>
+<body>
+   <div class="anchor"> <a href="hollyflix.html.html"><h2 class="back"><i class="bi bi-arrow-bar-left"></i>back to home</h2></a></div>
+     <center>
+        <div class="trend"> Trending Movies</div>
+    </center>
+    <div class="holly">
+        <div><a href="avtar.html" target="_blank"><img src="ava.jpg" alt=""></a></div>
+        <div><img src="jm.jpg" alt=""></div>
+        <div><img src="man.jpg" alt=""></div>
+        <div><img src="iron.jpg" alt=""></div>
+        <div><img src="civil.jpg" alt=""></div>
+        <div><img src="dark.jpg" alt=""></div>
+        <div><img src="a2.jpg" alt=""></div>
+        <div><img src="thor.jpg" alt=""></div>
+        <div><img src="s.jpg" alt=""></div>
+        <div><img src="king.jpg" alt=""></div>
+        <div><img src="spider.jpg" alt=""></div>
+        <div><img src="venom.jpg" alt=""></div>
+        <div><img src="wolf.jpg" alt=""></div>
+        <div><img src="pirates.jpg" alt=""></div>
+        <div><img src="hulk.jpg" alt=""></div>
+
+    </div><br><br>
+
+
+
+     <center>
+        <div class="trend"> Webseries</div>
+    </center>
+    <div class="holly">
+        <div><a href="got.html" target="_blank"><img src="got.jpg" alt=""></a></div>
+        <div><img src="bb.jpg" alt=""></div>
+        <div><img src="boys.jpg" alt=""></div>
+        <div><img src="loki.jpg" alt=""></div>
+        <div><img src="pb.jpg" alt=""></div>
+        <div><img src="mh.jpg" alt=""></div>
+        <div><img src="witcher.jpg" alt=""></div>
+        <div><img src="dd.jpg" alt=""></div>
+        <div><img src="wc.jpg" alt=""></div>
+        <div><img src="sg.jpg" alt=""></div>
+        <div><img src="manifest.jpg" alt=""></div>
+        <div><img src="im.jpg" alt=""></div>
+        <div><img src="hw.jpg" alt=""></div>
+        <div><img src="cobra.jpg" alt=""></div>
+        <div><img src="st.jpg" alt=""></div>
+
+    </div><br><br>
+
+     <center>
+        <div class="trend"> Anime</div>
+        <h2>(Coming soon)</h2><br><br><hr>
+    </center>
+<!-- 
+    <center>
+        <div class="trend">More reasons to join</div>
+    </center><br><br>
+    <div class="reason">
+        <div>
+            <p class="lore">Enjoy on your TV</p>
+            <p class="lore1">Watch on smart TVs,playstation,X-Box,Chromecast,Apple TV and more</p>
+            <p class="ii1"> <i class="bi bi-tv"></i></p>
+
+        </div>
+        <div>
+            <p class="lore">Download your shows to watch offline</p>
+            <p class="lore1">Save your favourites easily and always have something to watch.</p>
+            <p class="ii2"> <i class="bi bi-file-arrow-down-fill"></i></p>
+        </div>
+        <div>
+            <p class="lore"> Watch everywhere</p>
+            <p class="lore1">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            <p class="ii3"><i class="bi bi-discord"></i></p>
+        </div>
+        <div>
+            <p class="lore"> Create profiles for kids</p>
+            <p class="lore1">Send kids on adventures with their favourite characters in a space made just for them —
+                free with your membership.</p>
+
+            <p class="ii4"><i class="bi bi-people"></i></p>
+
+        </div>
+    </div><br><br><br>
+
+    <center>
+        <div class="trend">Frequently Asked Questions</div>
+    </center><br><br>
+
+    <details>
+        <summary>What is Hollyflix ?</summary>
+        <div class="faq">
+            <p>Hollyflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                documentaries and more - on thousands of internet-connected devices.</p>
+            <p>You can watch as much as you want, whenever you want, without a single ad - all for one low monthly
+                price. There's always something new to discover, and new TV shows and movies are added every week!
+            </p>
+        </div>
+    </details><br>
+
+    <details>
+        <summary>How much does Hollyflix cost ?</summary>
+        <div class="faq">
+            <p>Watch Hollyflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed
+                monthly fee. Plans range from ₹149 to ₹649/month.</p>
+
+
+    </details><br>
+    <details>
+        <summary>Where can I watch ?</summary>
+        <div class="faq">
+            <p>Watch anywhere, anytime. Sign in with your Hollyflix account to watch instantly on the web at netflix.com
+                from your personal computer or on any internet-connected device that offers the Hollyflix app, including
+                smart TVs, smartphones, tablets, streaming media players and game consoles</p>
+            <p>You can also download your favourite shows with the iOS or Android app. Use downloads to watch while
+                you're on the go and without an internet connection. Take Hollyflix with you anywhere.</p>
+
+
+    </details><br>
+
+    <details>
+        <summary>How do I cancel ?</summary>
+        <div class="faq">
+            <p>Hollyflix is flexible. You can easily cancel your account online in two clicks. There are no cancellation
+                fees - start or stop your account anytime.</p>
+    </details><br>
+    <details>
+        <summary>What can I watch on Hollyflix ?</summary>
+        <div class="faq">
+            <p>Netflix has an extensive library of feature films, documentaries, shows, anime, award-winning Netflix
+                originals, and more. Watch as much as you want, anytime you want.</p>
+    </details><br>
+    <details>
+        <summary>Is Hollyflix good for kids ?</summary>
+        <div class="faq">
+            <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy
+                family-friendly TV shows and films in their own space.</p>
+            <p>Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of
+                content kids can watch and block specific titles you don’t want kids to see.</p>
+
+    </details><br><br><br><br> -->
+
+    <!-- <h4>Ready to watch? Enter your email to create or restart your membership.</h4> -->
+    <!-- <center>
+
+        <div class="form">
+
+            <form action="">
+                <input type="email" placeholder="Email address" required>
+                <a href=""><input type="submit" value="Get Started"></a>
+            </form>
+            <!-- <button class="get"> <a href="">Get Started </a><i class="bi bi-caret-right"></i></button> -->
+
+        </div> -->
+
+    <!-- </center> -->
+    <!-- <br><br><br><br> -->
+
+
+    <!-- <center>
+        <div class="foot">
+
+            <ins>
+                <ul>
+                    <li>FAQ</li>
+                    <li>Investor </li>
+                    <li>Privacy</li>
+                    <li>Speed </li>
+                </ul>
+            </ins>
+
+
+            <ins>
+                <ul>
+                    <li>Help</li>
+                    <li>Jobs</li>
+                    <li>Cookies</li>
+                    <li>Notices</li>
+                </ul>
+            </ins>
+
+            <ins>
+                <ul>
+                    <li>Account</li>
+                    <li>Watching</li>
+                    <li>Information</li>
+                    <li>Hollyflix</li>
+                </ul>
+            </ins>
+
+            <ins>
+                <ul>
+                    <li>Media</li>
+                    <li>Terms</li>
+                    <li>Contact</li>
+                    <li>Support</li>
+                </ul>
+            </ins>
+
+
+        </div>
+    </center><br><br> -->
+
+ 
+
+<br><br>
+            <center>
+        <div class="foot">
+            
+            <ins>
+                <ul>
+                    <li>FAQ</li>
+                    <li>Investor </li>
+                    <li>Privacy</li>
+                    <li>Speed </li>
+                </ul>
+            </ins>
+
+
+            <ins>
+                <ul>
+                    <li>Help</li>
+                    <li>Jobs</li>
+                    <li>Cookies</li>
+                    <li>Notices</li>
+                </ul>
+            </ins>
+
+            <ins>
+                <ul>
+                    <li>Account</li>
+                    <li>Watching</li>
+                    <li>Information</li>
+                    <li>Hollyflix</li>
+                </ul>
+            </ins>
+
+            <ins>
+                <ul>
+                    <li>Media</li>
+                    <li>Terms</li>
+                    <li>Contact</li>
+                    <li>Support</li>
+                </ul>
+            </ins>
+            
+
+
+        </div>
+         <div>
+        <p class="con">Contact Us  </p>
+        
+    </div>
+    <div class="icon">
+       <center>
+        <a href="https://www.instagram.com/netflix?igsh=ZDFjdmRkYWFwbTJ0"><i style="color: white;" class="bi bi-instagram"></i></a>
+        <a href=""><i style="color:white; background-color: skyblue;" class="bi bi-telegram"></i></a>
+       <a href=""><i style="color: white; background-color: greenyellow;" class="bi bi-whatsapp"></i></a>
+        <a href=""><i style="color: white; background-color: navy;" class="bi bi-twitter-x"></i></a>
+        <a href=""><i style="color:skyblue; background-color: white;" class="bi bi-twitter"></i></a>
+    </center>
+    </div>
+    
+    </center>
+    <br><br><br>
+      
+    <div class="last2">This page is protected by Google reCAPTCHA to ensure you're not a bot. <ins style="color: blue;">
+            <a href="https://policies.google.com/privacy" target="_blank" class="private">Privacy Policy</a></ins></div><br>
+   
+        <p style="color: whitesmoke; margin-left: 290px; opacity: 75%;">@2026 Hollyflix. All Rights Reserved.</p>
+
+
+
+
+
+
+     
+     </center><br>
+     <center><hr style="width: 1300px;"></center>
+
+
+
+
+
+    
+</body>
+</html>
